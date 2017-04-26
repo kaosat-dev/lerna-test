@@ -1,3 +1,7 @@
 console.log('i am package-a')
 
-module.exports = {foo: 42, bar: 'dsf'}
+function computeNormals (meshData) {
+  return meshData * 2
+}
+
+module.exports = {foo: 42, bar: 'dsf', computeNormals}
