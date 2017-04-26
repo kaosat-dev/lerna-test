@@ -1,0 +1,20 @@
+lerna(info)    Lerna v2.0.0-rc.3
+lerna(verbose) GitUtilities.isInitialized    (".")
+lerna(verbose) GitUtilities.isInitialized    (".") => true
+lerna(verbose) FileSystemUtilities.existsSync("./VERSION")
+lerna(verbose) FileSystemUtilities.existsSync("./VERSION") => false
+lerna(verbose) Attempting running DiffCommand.initialize
+lerna(verbose) GitUtilities.hasCommit        ({"cwd":"."})
+lerna(verbose) GitUtilities.hasCommit        ({"cwd":"."}) => false
+lerna(error)   Errored while running DiffCommand.initialize
+    Error: Can't diff. There are no commits in this repository, yet.
+        at DiffCommand.initialize (/Users/kraftwerk-mb/dev/tools/js/versions/node/v6.10.1/lib/node_modules/lerna/lib/commands/DiffCommand.js:82:18)
+        at DiffCommand._attempt (/Users/kraftwerk-mb/dev/tools/js/versions/node/v6.10.1/lib/node_modules/lerna/lib/Command.js:249:21)
+        at DiffCommand.runCommand (/Users/kraftwerk-mb/dev/tools/js/versions/node/v6.10.1/lib/node_modules/lerna/lib/Command.js:233:12)
+        at DiffCommand.run (/Users/kraftwerk-mb/dev/tools/js/versions/node/v6.10.1/lib/node_modules/lerna/lib/Command.js:130:12)
+        at Object.handler (/Users/kraftwerk-mb/dev/tools/js/versions/node/v6.10.1/lib/node_modules/lerna/lib/commands/DiffCommand.js:37:44)
+        at Object.self.runCommand (/Users/kraftwerk-mb/dev/tools/js/versions/node/v6.10.1/lib/node_modules/lerna/node_modules/yargs/lib/command.js:231:22)
+        at Object.Yargs.self._parseArgs (/Users/kraftwerk-mb/dev/tools/js/versions/node/v6.10.1/lib/node_modules/lerna/node_modules/yargs/yargs.js:990:30)
+        at Object.get [as argv] (/Users/kraftwerk-mb/dev/tools/js/versions/node/v6.10.1/lib/node_modules/lerna/node_modules/yargs/yargs.js:930:19)
+        at Object.<anonymous> (/Users/kraftwerk-mb/dev/tools/js/versions/node/v6.10.1/lib/node_modules/lerna/bin/lerna.js:33:3)
+        at Module._compile (module.js:570:32)
