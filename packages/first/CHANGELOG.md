@@ -3,6 +3,27 @@
 All notable changes to this project will be documented in this file.
 See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.2.0"></a>
+# 0.2.0 (2017-04-26)
+
+
+### Features
+
+* **computeNormals:** added computeNormals feature ([f62d55e](https://github.com/kaosat-dev/lerna-test/commit/f62d55e))
+
+
+
+<a name="0.1.2"></a>
+## 0.1.2 (2017-04-26)
+
+
+### Features
+
+* **stuff:** updated ([36d3402](https://github.com/kaosat-dev/lerna-test/commit/36d3402))
+
+
+
+
 <a name="0.1.2"></a>
 ## 0.1.2 (2017-04-26)
 
