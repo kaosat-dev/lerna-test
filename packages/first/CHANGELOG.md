@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.3.0"></a>
+# [0.3.0](https://github.com/kaosat-dev/lerna-test/compare/@kaosat-dev/first@0.2.0...@kaosat-dev/first@0.3.0) (2017-04-26)
+
+
+### Features
+
+* **someOtherFunction:** added some great new functionality ([01bc338](https://github.com/kaosat-dev/lerna-test/commit/01bc338))
+
+
+
+
 <a name="0.2.0"></a>
 # 0.2.0 (2017-04-26)
 
