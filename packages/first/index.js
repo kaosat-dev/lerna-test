@@ -4,4 +4,8 @@ function computeNormals (meshData) {
   return meshData * 2
 }
 
-module.exports = {bar: 'dsf', computeNormals}
+function someOtherFunction (bla) {
+  return '42'
+}
+
+module.exports = {bar: 'dsf', computeNormals, someOtherFunction}
