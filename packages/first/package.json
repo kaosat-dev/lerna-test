@@ -1,6 +1,6 @@
 {
   "name": "@kaosat-dev/first",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,6 +10,6 @@
   "license": "MIT",
   "dependencies": {
     "@jscad/csg": "^0.1.4",
-    "@kaosat-dev/second": "^0.1.0"
+    "@kaosat-dev/second": "^0.1.1"
   }
 }
