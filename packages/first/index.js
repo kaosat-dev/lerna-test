@@ -5,7 +5,7 @@ function computeNormals (meshData) {
 }
 
 function someOtherFunction (bla) {
-  return '42'
+  return 109
 }
 
 module.exports = {bar: 'dsf', computeNormals, someOtherFunction}
