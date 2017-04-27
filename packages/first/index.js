@@ -9,7 +9,7 @@ function someOtherFunction (bla) {
 }
 
 function fraiseTagada () {
-  return 'hmmm yummysdf'
+  return 'hmmm yummy'
 }
 
 module.exports = {bar: 'dsf', computeNormals, someOtherFunction, fraiseTagada}
