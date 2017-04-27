@@ -1,3 +1,9 @@
 console.log('i am package-b')
 
-module.exports = {foo: 'sfsdfs'}
+function someStuff (bla, bli, blo) {
+  console.log('i do only side effects')
+
+  return bla * 42
+}
+
+module.exports = {foo: 'sfsdfs', someStuff}
