@@ -8,4 +8,8 @@ function someOtherFunction (bla) {
   return 109000
 }
 
-module.exports = {bar: 'dsf', computeNormals, someOtherFunction}
+function fraiseTagada () {
+  return 'hmmm yummysdf'
+}
+
+module.exports = {bar: 'dsf', computeNormals, someOtherFunction, fraiseTagada}
